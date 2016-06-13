@@ -1,0 +1,18 @@
+{
+  "name": "@pakastin/watch",
+  "version": "0.0.1",
+  "description": "Chokidar + spawn",
+  "main": "dist/watch.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "dev": "node watch",
+    "build": "rollup -f cjs src/index.js -o dist/watch.js",
+    "prepublish": "npm run build"
+  },
+  "author": "Juha Lindstedt",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "~1.5.1"
+  },
+  "devDependencies": {}
+}

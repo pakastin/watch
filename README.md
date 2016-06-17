@@ -6,8 +6,8 @@ Simple file watcher / child process spawner
 npm install @pakastin/watch
 ```
 
-### usage
-## watch(glob, command, firstRun)
+## usage
+### watch(glob, command, firstRun)
 
 ```
 var watch = require('@pakastin/watch');
